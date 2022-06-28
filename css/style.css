@@ -162,7 +162,15 @@ nav .menu a:hover,
 }
 
 /* SECCION SLIDER */
-
+.slider {
+    /*
+    background: url("../assets/d.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height: 400px;
+    */
+}
 
 .slider .carousel .carousel-caption {
     font-family: 'Open Sans', sans-serif;
@@ -211,7 +219,11 @@ nav .menu a:hover,
     padding: 32px 0;
 }
 
-
+/* .experiencias .contenedor{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 20px;
+} */
 
 .experiencias article img {
     width: 100%;
@@ -250,7 +262,7 @@ footer .contenedor {
 }
 
 footer .info-contacto ul {
-        list-style: none;
+    list-style: none;
     padding: 0;
     margin: 0;
 }
@@ -426,9 +438,6 @@ blockquote {
 .experiencia-text p {
     text-align: justify;
     padding-left: 25px;
-}
-
-
 }
 
 .seccion-experiencia .experiencia-img img {
@@ -965,7 +974,7 @@ blockquote {
         width: auto;
     }
 
-    /* PAGINA ASOCIATE */
+    
     /* PAGINA ASOCIATE */
     .seccion-form .form-group label {
         font-size: 14px;
